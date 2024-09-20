@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+.btn{
+    @apply bg-purple-500 text-white text-sm  px-4 py-2 rounded-md hover:bg-green-400
+}
+@tailwind utilities;
+.main{
+    @apply bg-orange-300
+}

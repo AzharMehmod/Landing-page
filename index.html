@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="images/file (9).png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Landing Page</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+
+  <body
+    class="font-nunito max-w-[2000px] mx-auto text-neutral-900 dark:text-neutral-200 bg-white dark:bg-neutral-800">
+
+    <nav class="mx-auto p-4 bg-amber-500">
+      <div class="container mx-auto flex items-center justify-between">
+        <a href="/" aria-label="GO to homepage"
+          class="focus-outline-none  focus-visible:ring-4 ring-neutral-900 rounded-md ring-offset-amber-500 lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:top-9 z-50 hover:opacity-75 transition-opacity">
+          <img src="images/logo.svg" width="200" alt="Home smart logo"
+            class="w-48 md:w-64 lg:w-72">
+        </a>
+        <button id="menu"
+          class="lg:hidden focus-outline-none  focus-visible:ring-4 ring-neutral-900 rounded-md ring-offset-amber-500 text-neutral-900
+         hover:text-neutral-600 transition-colors " aria-expanded="false"
+          aria-label="Open Menu">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="size-8">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+        </button>
+        <div role="menubar"
+          class="z-40 hidden items-center lg:flex  lg:flex-row lg:static lg:shadow-none lg:justify-between lg:w-full  flex-col gap-4 absolute right-0 left-0 top-16 bg-amber-500 shadow-xl text-center text-lg p-6 ">
+          <a href="/" role="menuitem"
+            class="py-1 px-6 dark:text-neutral-900 focus-visible:ring-4 ring-neutral-900 rounded-sm ring-offset-4 ring-offset-amber-500
+         text-neutral-900 hover:text-neutral-600 transition-colors">Home</a>
+          <a href="/" role="menuitem"
+            class="py-1 px-6 dark:text-neutral-900 focus-visible:ring-4 ring-neutral-900 rounded-sm ring-offset-4 ring-offset-amber-500
+         text-neutral-900 hover:text-neutral-600 transition-colors lg:mr-auto">Contact</a>
+          <a href="/" role="menuitem"
+            class="py-1 px-6 dark:text-neutral-900 focus-visible:ring-4 ring-neutral-900 rounded-sm ring-offset-4 ring-offset-amber-500
+         text-neutral-900 hover:text-neutral-600 transition-colors">Login</a>
+          <a href="/" role="menuitem"
+            class="py-2 px-6 bg-teal-900 dark:text-neutral-900 focus-visible:ring-4 ring-neutral-900 rounded-sm ring-offset-4ring-offset-amber-500
+         text-white   shadow-xl hover:shadow-none transition-shadow">Sign Up</a>
+        </div>
+      </div>
+
+    </nav>
+
+    <header class="relative pt-16 md:pt-24 lg:pt-48">
+      <div
+        class="absolute inset-0 bottom-8 md:bottom-24 xl:bottom-32 -z-10 bg-gradient-to-b from-amber-500 to-amber-600"></div>
+      <div class="container mx-auto grid grid-rows-1 place-items-end px-2">
+        <img class="row-start-1 row-end-2 col-start-1 col-end-2 mx-auto"
+          src="images/couch.png" alt="couch">
+        <img
+          class="row-start-1 row-end-2 col-start-1 col-end-2 mx-auto w-40 sm:w-52 md:w-64 lg:w-72 xl:w-72 "
+          src="images/app.svg" alt="app">
+      </div>
+    </header>
+
+    <main
+      class="grid gap-12 sm:gap-16 md:gap-24 lg:gap-32 px-8 overflow-hidden">
+      <a href="#"
+        class="py-2 px-6 my-16 mx-auto gap-2 flex bg-amber-500 dark:text-neutral-900 focus:outline-none  focus-visible:ring-4 ring-neutral-900 ring-offset-4  
+      rounded-md dark:ring-amber-400 dark:ring-offset-neutral-800 ring-offset-4ring-offset-amber-500
+      shadow-xl hover:shadow-none transition-shadow">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+          stroke-width="1.5" stroke="currentColor" class="size-6">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
+        </svg>
+        <span>Download the App</span>
+      </a>
+      <!-- safe -->
+      <section aria-labelledby="qualities" class="relative">
+        <img src="images/dots.svg" alt="dots" aria-labelledby="true"
+          class="hidden lg:block absolute top-1/2 -translate-y-1/2 -left-24 xl:-left-7">
+        <img src="images/dots.svg" alt="dots" aria-labelledby="true"
+          class="hidden lg:block absolute top-1/2 -translate-y-1/2 -right-24 xl:-right-7">
+        <h2 id="Qualities" class="sr-only">Our Qualities</h2>
+        <div
+          class="container max-w-5xl mx-auto gap-12 flex-wrap flex items-start justify-center  md:justify-between">
+          <div class="grid gap-4 md:flex-1 justify-items-center text-center">
+            <div class="rounded-full border-8 border-amber-500 p-4">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                class="h-14 w-14">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" />
+              </svg>
+            </div>
+            <h3 class="text-3xl font-bold">Safe</h3>
+            <p class>Our products are secure and private out-of-the-box</p>
+          </div>
+          <!-- efficient  -->
+          <div class="grid gap-4 md:flex-1 justify-items-center text-center">
+            <div class="rounded-full border-8 border-amber-500 p-4">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                class="w-14 h-14">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="m3.75 13.5 10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75Z" />
+              </svg>
+            </div>
+            <h3 class="text-3xl font-bold">Efficient</h3>
+            <p class>Feel good about your wallet and the environment</p>
+          </div>
+          <!-- proven  -->
+          <div class="grid gap-4 md:flex-1 justify-items-center text-center">
+            <div class="rounded-full border-8 border-amber-500 p-4">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                class="w-14 h-14">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z" />
+              </svg>
+            </div>
+            <h3 class="text-3xl font-bold">Proven</h3>
+            <p class>leading the smart Home world for 10 years</p>
+          </div>
+        </div>
+      </section>
+
+      <section aria-labelledby="patner"
+        class="text-cener grid gap-8 place-items-center">
+        <div class="grid gap-4 justify-center">
+          <h2 id="partners"
+            class="text-4xl font-bold text-amber-500 text-center">Our
+            Partners</h2>
+          <p class="w-full max-w-lg text-center">We've partnerd with handreds of
+            smart home brands to help you creat a smart home that fits your
+            needs and doesn't lock you in.</p>
+        </div>
+        <div
+          class="flex flex-wrap justify-center gap-8 md:gap-x-16 max-w-2xl mx-auto">
+          <div
+            class="p-4 bg-white dark:bg-neutral-600 shadow-md dark:shadow-xl rounded-md">
+            <img src="images/partner1.svg" alt="partner" class="w-16 h-16 ">
+          </div>
+          <div
+            class="p-4 bg-white dark:bg-neutral-600 shadow-md dark:shadow-xl rounded-md">
+            <img src="images/partner2.svg" alt="partner" class="w-16 h-16 ">
+          </div>
+          <div
+            class="p-4 bg-white dark:bg-neutral-600 shadow-md dark:shadow-xl rounded-md">
+            <img src="images/partner3.svg" alt="partner" class="w-16 h-16 ">
+          </div>
+          <div
+            class="p-4 bg-white dark:bg-neutral-600 shadow-md dark:shadow-xl rounded-md">
+            <img src="images/partner4.svg" alt="partner" class="w-16 h-16 ">
+          </div>
+          <div
+            class="p-4 bg-white dark:bg-neutral-600 shadow-md dark:shadow-xl rounded-md">
+            <img src="images/partner5.svg" alt="partner" class="w-16 h-16 ">
+          </div>
+          <div
+            class="p-4 bg-white dark:bg-neutral-600 shadow-md dark:shadow-xl rounded-md">
+            <img src="images/partner6.svg" alt="partner" class="w-16 h-16 ">
+          </div>
+          <div
+            class="p-4 bg-white dark:bg-neutral-600 shadow-md dark:shadow-xl rounded-md">
+            <img src="images/partner7.svg" alt="partner" class="w-16 h-16 ">
+          </div>
+        </div>
+      </section>
+      <section aria-labelledby="home" class="relative">
+        <div class="flex flex-wrap-reverse gap-8 justify-center">
+          <div
+            class="flex gap-6 flex-wrap flex-col items-start lg:justify-center">
+            <div class="flex flex-wrap flex-col items-start gap-2">
+              <h2 class="text-4xl font-bold">Relax, you're home!</h2>
+              <p class="max-w-md">All our supported hardware includes
+                traditional inputs so you can integrate our products into your
+                house in a way that's best for everyone</p>
+            </div>
+            <a href="#"
+              class="py-2 px-6 my-6 gap-2 flex bg-amber-500 dark:text-neutral-900 focus:outline-none  focus-visible:ring-4 ring-neutral-900 ring-offset-4  
+      rounded-md dark:ring-amber-400 dark:ring-offset-neutral-800 ring-offset-4ring-offset-amber-500
+      shadow-xl hover:shadow-none transition-shadow">
+              Sign Up
+            </a>
+          </div>
+          <img src="images/table.png" alt="table">
+        </div>
+        <div
+          class="absolute -bottom-6 -z-10 -right-32 aspect-square md:border-8 border-amber-500 rounded-full
+            md:w-64 lg:w-96 xl:max-w-lg">
+        </div>
+        <div
+          class="bg-teal-900 h-24 -mx-8 mt-12 xl:h-48 xl:absolute xl:w-screen -bottom-8 -z-10 xl:mt-0"></div>
+      </section>
+    </main>
+    <section aria-labelledby="Contact"
+      class="container mx-auto px-8 overflow-hidden ">
+      <div class="flex flex-wrap justify-center gap-12 md:gap-6 lg:gap-20">
+        <div class="md:flex-1 md:max-w-sm relative">
+          <img src="images/lamp.png" alt="lamp" class="mx-auto">
+          <a href="#"
+            class="py-2 px-6 mt-16 md:mb-12  mx-auto gap-2 flex bg-amber-500
+          w-max dark:text-neutral-900 focus:outline-none  focus-visible:ring-4 ring-neutral-900 ring-offset-4  
+      rounded-md dark:ring-amber-400 dark:ring-offset-neutral-800 ring-offset-4ring-offset-amber-500
+      shadow-xl hover:shadow-none transition-shadow">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+              viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+              class="size-6">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
+            </svg>
+            <span>Download the App</span>
+          </a>
+          <img src="images/app.svg" alt="app" width="240"
+            class="hidden md:block shadow-xl mx-auto drop-shadow-xl absolute left-1/2 -translate-x-1/2 max-w-[16rem] xl:max-w-xs">
+          <!-- <img src="images/app.svg" alt="app" width="240"  class="hidden md:block shadow-xl mx-auto drop-shadow-xl max-w-[16rem] xl:max-w-xs" > -->
+          <div
+            class="absolute -bottom-18 -z-10 left-1/2 -translate-x-1/2 aspect-square md:border-8 border-amber-500 rounded-full
+      md:w-72 lg:w-96 "></div>
+        </div>
+        <form action
+          class="relative border-8 border-neutral-900 p-6 rounded-lg grid gap-12 md:flex-1 md:max-w-lg my-4 md:my-12 lg:my-16 bg-white dark:bg-neutral-800 w-full 
+        ">
+          <h2 id="content" class="text-3xl font-bold">Let's Connect</h2>
+          <div class="relative">
+            <input type="text" id="name" placeholder="your Name"
+              class="peer placeholder-transparent form-input w-full border-4 border-amber-500 rounded-md focus:ring-4 dark:focus:ring-offset-2 focus:border-amber-500 focus:ring-amber-500 focus:outline-none dark:bg-amber-500 dark:text-neutral-900">
+            <label for="name"
+              class="text-neutral-500 text-sm font-bold uppercase absolute -top-4 left-2 -translate-y-1/2 transition-all peer-placeholder-shown:left-4 peer-placeholder-shown:top-1/2 peer-placeholder-shown:text-neutral-900  peer-focus:-top-4 peer-focus:left-2 peer-focus:text-neutral-600 dark:peer-focus:text-neutral-300">
+              your Name</label>
+          </div>
+          <div class="relative">
+            <input type="email" id="email" placeholder="your Email"
+              class="peer placeholder-transparent form-input w-full border-4 border-amber-500 rounded-md focus:ring-4 dark:focus:ring-offset-2 focus:border-amber-500 focus:ring-amber-500 focus:outline-none dark:bg-amber-500 dark:text-neutral-900">
+            <label for="email"
+              class="text-neutral-500 text-sm font-bold uppercase absolute -top-4 left-2 -translate-y-1/2 transition-all peer-placeholder-shown:left-4 peer-placeholder-shown:top-1/2 peer-placeholder-shown:text-neutral-900  peer-focus:-top-4 peer-focus:left-2 peer-focus:text-neutral-600 dark:peer-focus:text-neutral-300">
+              your Email</label>
+          </div>
+          <div class="relative">
+            <textarea name="content" id="content" cols="20" rows="5"
+              class="peer placeholder-transparent form-textarea resize-none w-full border-4 border-amber-500 rounded-md focus:ring-4 dark:focus:ring-offset-2 focus:border-amber-500 focus:ring-amber-500 focus:outline-none dark:bg-amber-500 dark:text-neutral-900"
+              placeholder="How can we help?"></textarea>
+            <label for="content"
+              class="text-neutral-500 text-sm font-bold uppercase absolute -top-3 left-2 -translate-y-1/2 transition-all peer-placeholder-shown:left-4 peer-placeholder-shown:top-6 peer-placeholder-shown:text-neutral-900  peer-focus:-top-4 peer-focus:left-4 peer-focus:text-neutral-600 dark:peer-focus:text-neutral-300">
+              How can we help?</label>
+          </div>
+          <a href="/" role="menuitem"
+            class="py-2 px-6 bg-neutral-900 rounded-md w-max dark:text-neutral-900 focus-visible:ring-4 ring-neutral-900  ring-offset-4 ring-offset-white-500
+         text-white   shadow-xl hover:shadow-none transition-shadow">Sign Up</a>
+        </form>
+      </div>
+    </section>
+    <div class="w-full bg-teal-900 text-white">
+      <div class="container mx-auto py-5 flex items-center justify-between">
+        <a href="/" aria-label="GO to homepage"
+        class=" rounded-md   lg:left-1/2 ">
+        <img src="images/logo.svg"  alt="Home smart logo"
+          class="w-40">
+      </a>
+        <span class="hidden md:block font-medium"
+          >© 2024 Page landing. Design with ♥️ by Lama Dev.</span
+        >
+        <div class="flex gap-2">
+          <img class="w-4 cursor-pointer " src="images/facebook.png" alt="" />
+          <img class="w-4 cursor-pointer" src="images/insta3.png" alt="" />
+          <img class="w-4 cursor-pointer" src="images/twit.png" alt="" />
+          <img class="w-4 cursor-pointer" src="images/linkedin.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+    <script src="./autotypin.js"></script>
+    <script src="tailwind.config.js"></script>
+
+  </body>
+</html>
